@@ -111,7 +111,7 @@ const LeadDetails = () => {
               </div>
               <div className="info-item">
                 <label>Budget</label>
-                <p>${lead.budget.toLocaleString()}</p>
+                <p>₹{lead.budget.toLocaleString()}</p>
               </div>
               <div className="info-item full-width">
                 <label>Requirement</label>
